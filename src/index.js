@@ -36,6 +36,7 @@ const createTodo = ({ contents = "", category, tags }) => {
 
 const readTodo = (id = "") => {
   // read Todo
+  // If it has argument(id) check specific one, else check all
 };
 
 /** 
@@ -60,6 +61,7 @@ const updateTodo = (id, TodoUpdateInput) => {
 
 const deleteTodo = (id = "") => {
   // delete Todo
+  // If it has a argument(id) delete specific one, else delete all
 };
 
 /**
@@ -71,4 +73,5 @@ const deleteTodo = (id = "") => {
 
 const deleteTagsOfTodo = (id, tag = "") => {
   // delete tags
+  // If it has a argument(tag) delete specific one, else delete all
 };
